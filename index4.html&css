@@ -1,0 +1,204 @@
+HTML
+<html>
+  <header>
+    <title>Página Projeto</title>
+  </header>
+  <bory>
+    <div>
+      <div class="card-header">
+        <div class="titulo">
+          <h2>New Opportunity</h2>
+      </div>
+    <button class="botao">Available</button>
+      </div>
+    <section>
+      <div>
+      <div class="perfil-completo">
+  <img src="#" alt="#" class="foto-perfil">
+  <div class="informacoes">
+    <div class="nome">Jenifer A.</div>
+    <div class="empresa">Meta-</div>
+    <div class="face">Facebook</div>
+    <div class="local">Califórnia</div>
+  </div>
+</div>
+     </div>
+    <h1>$35,000 - $45,000</h1>
+      <p1>14 Oct-2024</p1> 
+      <P2>89.5% Match</P2>
+      <div id="container">
+        <div id="botoes">
+          <button class="botao1">4.9</button>
+          <button class="botao2">Web Design</button>
+          <button class="botao3">Responsive</button>
+       <div>
+       </div>  
+        </div>  
+      </div>
+    </section>
+     <p3>Need Responsive Website showcase product Modern and visually appealing design.</p3>
+    <br>
+    <div class="perfil-completo">
+  <img src="#" alt="#" class="foto-perfil">
+  <div class="informacoes">
+    <div class="nome">Robert.T</div>
+    <div class="agencia">Full Cycle Agency</div>
+    <div class="salt">Salt Lake</div>
+  </div>
+</div>
+    <br>
+    <div id="containerf">
+        <div id="botoesf">
+          <button class="botao4">Accept Project</button>
+          <button class="botao5">Decline Offer</button>
+       <div>
+       </div>  
+  </bory>
+</html>
+
+CSS
+.card-header {
+  display: flex;
+  justify: space-between;
+  align-itmns:center;
+  margin-botton: 10px;
+ }
+.titulo{
+  display: flex;
+  align-itmns: center;
+  gap: 10px;
+}
+.botao{
+  padding: 14px 60px;
+  background-color: #eeeeee;
+  border: none;
+  border-radius:16px;
+  cursor: pointer;
+}
+.perfil-completo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: sans-serif;
+}
+
+.foto-perfil {
+  width: 10px;
+  height: 10px;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.nome {
+  font-weight: bold;
+}
+
+.empresa {
+  color: black;
+  font-size: 16px;
+}
+.face{
+  color:black;
+  font-size:16px;
+}
+.local{
+  color:black;
+  font-size:16px;
+}
+h1{
+  color:black;
+  justify-content:;
+}
+#container{
+  display:flex;
+  flex-direction:row;
+  justify-content:start;
+}
+#botoes{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+.botao1 {
+  background-color:green;
+  color: black;
+  padding: 10px 30px;
+  border:none;
+  border-radius: 30px;
+}
+.botao2{
+  background-color:#A020F0;
+  color: black;
+  padding: 10px 30px;
+  border:none;
+  border-radius: 30px;
+}
+.botao3{
+  background-color:yellow;
+  color: black;
+  padding: 10px 30px;
+  border:none;
+  border-radius: 30px;
+}
+.perfil-completo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: sans-serif;
+}
+
+.foto-perfil {
+  width: 10px;
+  height: 10px;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.nome {
+  font-weight: bold;
+}
+
+.agencia {
+  color: black;
+  font-size: 16px;
+}
+.salt{
+  color:black;
+  font-size:16px;
+}
+#containerf{
+  display:flex;
+  flex-direction:row;
+  justify-content:start;
+}
+
+#botoesf{
+  display: flex;
+  flex-direction:column;
+  justify-content:start;
+  width:30%;
+  height:30px;
+  gap:10px;
+}
+.botao4{
+  background-color:black;
+  color: white;
+  padding: 10px 30px;
+  border:none;
+  border-radius: 30px;
+}
+.botao5{
+  background-color:white;
+  color: black;
+  padding: 10px 30px;
+  border:none;
+  border-radius: 30px;
+}
